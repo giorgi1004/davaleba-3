@@ -6,12 +6,17 @@
 body{
     
     max-width: 1440px;
+   width: 100%;
     margin: 0 auto;
+}
+.content{
+    max-width: 1440px;
+    width: 100%;
 }
 
 
 header{
-    max-width: 100%;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,6 +48,9 @@ header{
     font-size: 17px;
     line-height: 16px;
     color: #636060;
+}
+.burger{
+    display: none;
 }
 
 @font-face {
@@ -98,16 +106,16 @@ color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     gap: 33px;  
-    justify-content: flex-end;
+    justify-content: space-evenly;
     
 
 }
 .box {
     width: 30%;
-    height: auto;
+    height: 320px;
 }
 .leftBox{
-width: 235px;
+    width: 286px;
 }
 .box img{
     width: 100%;
